@@ -4,5 +4,4 @@
 ## 说明
 
 1. `run-on-Android-Pydroid.py`可以直接在安卓的Pydroid中运行
-2. `.apk`文件是打包后的Android安装包，可以安装使用
-3. `source.py'文件是`.apk`文件的源码，与可以在Pydroid中运行的代码有所不同
+2. `source.py`文件是可以打包成Android App的源码，与可以直接在Pydroid中运行的代码有所不同
