@@ -99,6 +99,7 @@ class Homepage(FloatLayout):
                                         pos_hint={'y': .025, 'x': .825},
                                         on_press=self.next_atlas)
         self.img = Image(source=self.cur_img_path,
+                         allow_stretch=True,
                          size_hint=(1, .9),
                          pos_hint={'top': 1},
                          on_touch_down=self.next_img)
