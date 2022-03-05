@@ -130,7 +130,7 @@ class Homepage(FloatLayout):
         self.back_button = Button(text='返回',
                                   size_hint=(.15, .05),
                                   pos_hint={'y': .025, 'x': .025},
-                                  on_press=self.sd_or_internal)
+                                  on_press=self.choose_img)
         self.last_img_button = Button(text='上一张',
                                       size_hint=(.15, .05),
                                       pos_hint={'y': .025, 'x': .225},
